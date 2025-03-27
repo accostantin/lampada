@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: black;
 }
 
 .container {
@@ -15,6 +16,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: grey;
+    border-radius: 10px ;
 }
 .lamp{
 height: 200px;
@@ -38,4 +41,9 @@ width: 100px;
 font-family: "Poppins" , sans-serif;
 display: block;
 float: left;
+background-color: rgb(52, 52, 75);
+color: bisque;
+border: 2px solid #120d2a; 
+margin: 4px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
